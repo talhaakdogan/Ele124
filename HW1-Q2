@@ -21,3 +21,9 @@ int main( void )
 
 } /* end function main */
 
+/* THE OUTPUT IS AS FOLLOWS:
+Enter first integer
+4
+Enter second integer
+5
+Sum is 9 */
