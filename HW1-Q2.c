@@ -21,7 +21,7 @@ int main( void )
 
 } /* end function main */
 
-/* THE OUTPUT IS AS FOLLOWS:
+/* THE RUN IS AS FOLLOWS:
 Enter first integer
 4
 Enter second integer
