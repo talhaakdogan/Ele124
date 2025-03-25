@@ -2,20 +2,20 @@
 #include <math.h> /*for the pow function*/
 
 
-void computeHomeValue(int popularity_house, int size_house); /*this function computes home value and prints it to the screen*/
+void computeHomeValue(); /*this function computes home value and prints it to the screen*/
 
 
 int main()
 {
-    int popularity_house;
-    int size_house;
-    computeHomeValue(popularity_house, size_house);
+    computeHomeValue();
     return 0;
 }
 
 
-void computeHomeValue(int popularity_house, int size_house)  /*function is being defined*/
+void computeHomeValue()  /*function is being defined*/
 {
+    int size_house;
+    int popularity_house;
     printf("Enter popularity:");         /*input of popularity*/
     scanf(" %d",&popularity_house);
     printf("Enter size:");              /* input of size*/
