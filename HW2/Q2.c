@@ -20,7 +20,7 @@ int main(){
         
         itemPrice=aRandomNumber;
         Hunerler(itemPrice, &donation, &profit);
-        printf("%.2f\n", itemPrice);
+        printf("Item: %.2f\n", itemPrice);
         
     }
     
