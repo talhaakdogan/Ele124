@@ -23,10 +23,12 @@ int main(){
         aRandomNumber = aRandomNumber/100; //Converts it to a float number between 20 and 0.
         itemPrice=aRandomNumber;
         Hunerler(itemPrice, &donation, &profit);
+        printf("Item: %.2f\n", itemPrice);
         fprintf(file_donation ,"Item: %.2f\n", itemPrice);
 
     }
-
+    printf("Donation: %.2f\n", donation);
+    printf("Profit: %.f\n", profit);
     fprintf(file_donation, "Donation: %.2f\n", donation);
     fprintf(file_donation,"Profit: %.f\n", profit);
 
